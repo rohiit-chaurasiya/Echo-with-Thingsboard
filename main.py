@@ -1,10 +1,12 @@
 """
-This Python script connects to a ThingsBoard and performs the following tasks:
+
+Used MQTT Device API for ThingsBoard Integration
+
+This Python script connects to a ThingsBoard MQTT broker and performs the following tasks:
 1. Subscribes to attribute updates for a device.
 2. Publishes telemetry data to the device.
 3. Handles disconnection and uncaught exceptions gracefully.
 
-Used MQTT Device API for ThingsBoard Integration
 
 To use this script:
 1. Replace THINGSBOARD_HOST and ACCESS_TOKEN with demo ThingsBoard server URL and device access token.
@@ -12,8 +14,8 @@ To use this script:
 
 Make sure you have a device with the given access token in your ThingsBoard instance.
 
-Author: Rohit Chaurasia
-Date: 05-09-2023
+Developer: Rohit Chaurasia
+Date: 06-09-2023
 
 """
 
